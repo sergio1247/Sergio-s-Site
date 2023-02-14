@@ -87,17 +87,47 @@
     text-shadow: 2px 7px 5px rgba(12, 12, 12, 0.3), 
     0px -4px 10px rgba(255, 255, 255, 0.3);
 }
-.home .home-content .fa{
-    text-align: center;
-    padding: 20px;
+/* .home .home-content .test{
     font-size: 30px;
-    width: 50px;
     text-align: center;
-    text-decoration: none;
+    margin-top: 10px;
+    margin: 0 15px;
+    
+ 
+} */
+
+.home .home-content .media ul{
+    /* position: relative; */
+    text-align: center;
+    margin-top: 5px;
+    /* display: inline-block; */
+    /* padding: 0;
+    margin: 0; */
+   
+
   }
-  .home .home-content .fa .fa-twitter {
-    background: white;
+  .home .home-content .media ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+
+  }
+  .home .home-content .media ul li .fa{
+    font-size: 20px;
+    line-height: 30px;
+    transition: .6s;
     color: white;
+
+  }
+  .home .home-content .media ul li a{
+    position: relative;
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 30%;
+    background-color: black;
+    text-align: center;
+
   }
 .home .home-content .text3{
     font-size: 10px;
