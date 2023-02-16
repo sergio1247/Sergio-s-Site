@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -15,8 +16,8 @@
         <div class="max-width">
             <div class="logo"><a href="#" >Portfo<span>lio.</span></a></div>
                 <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Skills</a></li>
                     <li><a href="#">Teams</a></li>
@@ -30,7 +31,6 @@
                     <div class="home-content">
                         <div class="text1">Sergio Martinez</div>
                         <div class="text2">Computer Science Undergraduate</div>
-                        <div class="text3">hi</div>
                         <div class="media">
                             <ul>
                                 <li>
@@ -47,10 +47,24 @@
                                 </li>
                             </ul>
                         </div>
+                            <div class="scrolldown">
+                               <a href="#about"><i class="fa fa-chevron-down"></i></a>
+                           </div>
                     </div>
-                    
                 </div>
             </section>
-    
+
+            <!-- About section -->
+            <section class="about" id="about">
+                <div class="max-width">
+                    <h2 class="title">About Me</h2>
+                    <div class="about-content">
+                        <div class="left">
+                        <img src="images/bg.jpg" alt="bg">
+                        </div>
+                    </div>
+                </div>
+            </section>
+    <script src="script.js"></script>
 </body>
 </html>
