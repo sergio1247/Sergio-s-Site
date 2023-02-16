@@ -204,6 +204,13 @@ a:link{
 
  @media (max-width: 690px){
     .home{
-    background-size: contain no-repeat;
+    background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        min-height: 725px;
     }
  }
