@@ -201,3 +201,9 @@ a:link{
 
 
  }
+
+ @media (max-width: 690px){
+    .home{
+    background-size: contain no-repeat;
+    }
+ }
