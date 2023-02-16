@@ -340,7 +340,7 @@ a:link {
 
 @media (max-width: 550px) {
     .max-width {
-      padding: 0 50px;
+      padding: 0 40px;
     }
     .home {
         width: 100%;
@@ -351,7 +351,7 @@ a:link {
     .menu-btn{
       display: block;
       z-index: 999;
-      padding: 0 50px;
+      padding: 0 40px;
     }
     .menu-btn i.active:before{
       content: "\f00d";
