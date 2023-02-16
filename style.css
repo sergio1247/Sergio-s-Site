@@ -343,7 +343,7 @@ a:link {
       padding: 0 40px;
     }
     .home {
-        max-width: 100%;
+        max-width: 110%;
         min-width: 300px;
         height: 100vh;
         background-repeat: no-repeat;
