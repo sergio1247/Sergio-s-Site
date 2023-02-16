@@ -353,6 +353,7 @@ a:link {
         -moz-background-size: cover;
         background-size: cover;
         -o-background-size: cover;
+      overflow: hidden;
        
       }
     .menu-btn{
