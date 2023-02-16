@@ -352,7 +352,7 @@ a:link {
     .menu-btn{
       display: block;
       z-index: 999;
-      padding: 0 30px;
+      padding: 0 20px;
     }
     .menu-btn i.active:before{
       content: "\f00d";
