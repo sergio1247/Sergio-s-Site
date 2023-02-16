@@ -346,13 +346,19 @@ a:link {
         max-width: 100%;
         min-width: 300px;
         height: 100vh;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
         background-size: cover;
-        background-position: center, center;
+        -o-background-size: cover;
+       
       }
     .menu-btn{
       display: block;
       z-index: 999;
-      padding: 0 5px;
+      padding: 0 20px;
     }
     .menu-btn i.active:before{
       content: "\f00d";
