@@ -214,9 +214,108 @@ a:link {
   -moz-background-clip: text;
   }
 
+
+    /* about ********************************************************************** */
+  /* about ********************************************************************** */
+  /* about ********************************************************************** */
+  /* about ********************************************************************** */
+  
+  
+  
+/* About section stlying */
+section{
+    padding: 50px 0;
+    background-color: black;
+}
+.about {
+  font-family: "poppins", sans-serif;
+  height: 100vh;
+}
+
+.about .title {
+    position: relative;
+    text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 60px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+.about .title::before {
+    content: attr(data-heading);
+    color: #ff4e4e;
+  font-size: 15px;
+    bottom: 0px;
+   display: block;
+}
+
+/* .about .title::after {
+    content: "Intro";
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    font-size: 20px;
+    color: #ff4e4e;
+    padding: 5px;
+    transform: translateX(-50%);
+    background: black;
+} */
+
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .about-content .left{
+    width: 45%;
+}
+
+.about .about-content .left img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  margin-top: 40px;
+  border-radius: 1rem;
+  /* border-radius: 50%; */
+}
+
+.about .about-content .right{
+    width: 55%;
+}
+
+.about .about-content .right .text{
+    margin-bottom: 15px; 
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.about .about-content .right .text span{
+    color: #ff4e4e;
+    
+}
+.about .about-content .right a{
+    display: inline-block;
+    background: #ff4e4e;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #ff4e4e;
+    transition: all 0.3 ease;
+    
+}
+.about .about-content .right a:hover{
+    color: #ff4e4e;
+    background: none;
+}
+
+
 /* responsive media querey start */
-
-
 
 
 @media (max-width: 947px) {
@@ -359,6 +458,21 @@ a:link {
     font-size: 40px;
     color: rgb(99, 21, 21);
   }
+  .max-width{
+    max-width: 800px;
+  }
+  .about{
+    height: auto;
+  }
+  .about .about-content .left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
+  .about .about-content .right {
+    flex: 100%;
+  }
 }
 
 
@@ -416,8 +530,9 @@ a:link {
     }
   
   
-  
-  
+  .home{
+    height: 100vh;
+  }
   
     .home .home-content .text1 {
       text-align: center;
@@ -515,106 +630,25 @@ a:link {
       font-size: 40px;
       color: rgb(99, 21, 21);
     }
+    .max-width{
+    max-width: 800px;
+  }
+  .about{
+    height: auto;
+  }
+  .about .about-content .left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
+  .about .about-content .right {
+    flex: 100%;
+  }
   }
 
 
   
-  /* about ********************************************************************** */
-  /* about ********************************************************************** */
-  /* about ********************************************************************** */
-  /* about ********************************************************************** */
-  
-  
-  
-/* About section stlying */
-section{
-    padding: 50px 0;
-    background-color: black;
-}
-.about {
-  font-family: "poppins", sans-serif;
-  height: 100vh;
-}
-
-.about .title {
-    position: relative;
-    text-align: center;
-  font-family: "Poppins", sans-serif;
-  color: white;
-  font-size: 40px;
-  font-weight: 500;
-  margin-top: 60px;
-  padding-bottom: 20px;
-  font-family: "Ubuntu", sans-serif;
-}
-.about .title::before {
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 100px;
-    height:  3px;
-    background: #ff4e4e;
-    transform: translateX(-50%);
-}
-
-.about .title::after {
-    content: "Intro";
-    position: absolute;
-    bottom: -14px;
-    left: 50%;
-    font-size: 20px;
-    color: #ff4e4e;
-    padding: 5px;
-    transform: translateX(-50%);
-    background: black;
-}
-
-.about .about-content{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.about .about-content .left{
-    width: 45%;
-}
-
-.about .about-content .left img {
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  margin-top: 40px;
-  border-radius: 1rem;
-}
-
-.about .about-content .right{
-    width: 55%;
-}
-
-.about .about-content .right .text{
-    margin-bottom: 15px; 
-    font-size: 25px;
-    font-weight: 600;
-    
-}
-.about .about-content .right a{
-    display: inline-block;
-    background: #ff4e4e;
-    color: white;
-    font-size: 15px;
-    padding: 10px 20px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid #ff4e4e;
-    transition: all 0.3 ease;
-    
-}
-.about .about-content .right a:hover{
-    color: #ff4e4e;
-    background: none;
-}
 
 
 
