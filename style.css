@@ -2,6 +2,11 @@
 :root {
     color-scheme: dark;
 }
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +17,26 @@ a:visited,
 a:link {
   color: #fff;
 }
+
+
+.container{
+  max-width: 1100px;
+  width: 100%;
+  /* background: red; */
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.padd15{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
 .max-width {
   max-width: 1300px;
   padding: 0 80px; /* indents Portfolio */
@@ -223,13 +248,16 @@ a:link {
   
   
 /* About section stlying */
+
 section{
     padding: 50px 0;
     background-color: black;
+    /* display: block;
+    position: fixed; */
 }
 .about {
   font-family: "poppins", sans-serif;
-  height: 100vh;
+  height: auto;
 }
 
 .about .title {
@@ -272,11 +300,12 @@ section{
 
 .about .about-content .left{
     width: 45%;
+   padding-left: 9%;
 }
 
 .about .about-content .left img {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   object-fit: cover;
   margin-top: 40px;
   border-radius: 1rem;
@@ -314,8 +343,187 @@ section{
     background: none;
 }
 
+.about .personal-info{
+  flex: 0 0 60%;
+  max-width: 60%;
+  /* background-color: red; */
+  margin-top: 60px;
+}
+
+.about .personal-info h3{
+  /* color: gray; */
+  color: white;
+  font-weight: 600;
+  padding-left: 15px;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+ .about .personal-info .info-item{
+  flex: 0 0 50%;
+  max-width: 50%;
+  /* background: red; */
+ }
+ .about .personal-info .info-item p{
+  font-weight: 600;
+  padding: 11px 0;
+  font-size: 15px;
+  color: rgb(58, 58, 58);
+  border-bottom: 1px solid rgb(47, 47, 47);
+ }
+ .about .personal-info .info-item p span{
+      font-weight: 400;
+      color: rgb(100, 100, 100);
+      margin-left: 4px;
+      display: inline-block;
+      
+ }
+ .about .personal-info .buttons{
+  margin-left: 15px;
+ }
+ .about .personal-info .buttons .cv{
+  margin-right: 15px;
+ }
+ .about .personal-info .buttons a{
+  display: inline-block;
+  background: #ff4e4e;
+  color: white;
+  font-size: 15px;
+  padding: 10px 30px;
+  margin-top: 60px;
+  border-radius: 6px;
+  border: 2px solid #ff4e4e;
+  transition: all 0.3 ease;
+  
+}
+.about .personal-info a:hover{
+  color: #ff4e4e;
+  background: none;
+}
+
+
+ .about .skills{
+  flex: 0 0 40%;
+  max-width: 40%;
+  /* background-color: green; */
+  margin-top: 60px;
+  /* padding-left: 15px; */
+}
+.about .skills h3{
+  /* color: gray; */
+  color: white;
+  padding-left: 15px;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+
+.about .skills .skill-item{
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 30px;
+  
+}
+.about .skills .skill-item h5{
+  line-height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(100, 100, 100);
+  /* color: white; */
+  text-transform: capitalize;
+}
+.about .skills .skill-item .progress{
+  background-color: rgb(58, 58, 58);
+  height: 7px;
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
+}
+.about .skills .skill-item .progress .progress-in{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 4px;
+  background-color: #ff4e4e;
+  
+}
+.about .skills .skill-item .skill-percent{
+  position: absolute;
+  right: 0;
+  color: white;
+  top: -40px;
+  font-weight: 400;
+  line-height: 40px;
+}
 
 /* responsive media querey start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* large screen ********************************************************************** */
+  /* large screen ********************************************************************** */
+  /* large screen  ********************************************************************** */
+  /* large screen  ********************************************************************** */
+
+
+
+/* @media (max-width: 1400px) {
+  .about .about-content .left {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    margin: 0 auto 60px;
+  }
+  .about .about-content .right {
+    flex: 100%;
+  }
+} */
+
+
+
+
+    /* medium screen ********************************************************************** */
+  /* medium screen ********************************************************************** */
+  /* medium screen  ********************************************************************** */
+  /* medium screen  ********************************************************************** */
 
 
 @media (max-width: 947px) {
@@ -388,14 +596,6 @@ section{
     text-shadow: 2px 7px 5px rgba(12, 12, 12, 0.3),
       0px -4px 10px rgba(255, 255, 255, 0.3);
   }
-  /* .home .home-content .test{
-      font-size: 30px;
-      text-align: center;
-      margin-top: 10px;
-      margin: 0 15px;
-      
-   
-  } */
   
   .home .home-content .media ul {
     /* position: relative; */
@@ -461,6 +661,12 @@ section{
   .max-width{
     max-width: 800px;
   }
+
+
+
+
+
+
   .about{
     height: auto;
   }
@@ -469,6 +675,7 @@ section{
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
+    padding: 0;
   }
   .about .about-content .right {
     flex: 100%;
@@ -476,6 +683,9 @@ section{
 }
 
 
+
+
+
 /* mobile ********************************************************************** */
 /* mobile ********************************************************************** */
 /* mobile ********************************************************************** */
@@ -484,7 +694,7 @@ section{
 
 
 
-@media (max-width: 550px) {
+@media (max-width: 1100px) {
     .max-width {
       padding: 0 40px;
     }
@@ -641,11 +851,14 @@ section{
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
+    padding: 0;
   }
   .about .about-content .right {
     flex: 100%;
   }
   }
+
+  
 
 
   
