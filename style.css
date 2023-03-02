@@ -236,7 +236,7 @@ a:link {
   }
   .home .home-content .scrolldown a:hover{
     
-    -webkit-text-stroke-width: 2px;
+  /*   -webkit-text-stroke-width: 2px;  */
   -webkit-text-stroke-color: black;
     text-shadow: 2px 2px 7px white;
     -webkit-background-clip: text;
