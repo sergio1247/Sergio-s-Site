@@ -129,7 +129,7 @@ a:link {
   text-shadow: 2px 7px 5px;
   font-size: 100px;
   font-weight: 500;
-  -webkit-text-stroke-width: 1px;
+   /* -webkit-text-stroke-width: 1px; */
   -webkit-text-stroke-color: black;
   background-size: 500%;
   -webkit-background-clip: text;
