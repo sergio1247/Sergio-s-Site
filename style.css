@@ -13,6 +13,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+.shadow-dark{
+  box-shadow: 0 0 20px rgb(48, 46, 77, 0.15);
+}
 a:visited,
 a:link {
   color: #fff;
@@ -81,10 +84,10 @@ a:link {
   margin-left: 25px; /*  Space between home, about, skills  */
 }
 .navbar .menu li a:hover {
-  color: grey;
+  color: #ff4e4e;
 }
 .navbar.sticky .menu li a:hover {
-  color: grey;
+  color: #ff4e4e;
 }
 /* home button styling  */
 
@@ -273,7 +276,7 @@ section{
   font-size: 40px;
   font-weight: 500;
   margin-top: 40px;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
   font-family: "Ubuntu", sans-serif;
 }
 .about .title::before {
@@ -284,17 +287,6 @@ section{
    display: block;
 }
 
-/* .about .title::after {
-    content: "Intro";
-    position: absolute;
-    bottom: -14px;
-    left: 50%;
-    font-size: 20px;
-    color: #ff4e4e;
-    padding: 5px;
-    transform: translateX(-50%);
-    background: black;
-} */
 
 
 
@@ -303,7 +295,7 @@ section{
   /* max-width: 60%; */
   width: 600px;
   height: 300px;
-  /* background-color: #f21818; */
+  /* background-color: orange; */
   /* text-align: end; */
   
 }
@@ -376,63 +368,12 @@ h3.hello span{
 
 
 
-.about .about-content{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.about .about-content .left{
-    width: 45%;
-   padding-left: 9%;
-}
-
-.about .about-content .left img {
-  height: 300px;
-  width: 300px;
-  object-fit: cover;
-  margin-top: 40px;
-  border-radius: 1rem;
-  /* border-radius: 50%; */
-}
-
-.about .about-content .right{
-    /* width: 55%; */
-    width: 60%;
-}
-
-.about .about-content .right .text{
-    margin-bottom: 15px; 
-    font-size: 25px;
-    font-weight: 600;
-    
-}
-.about .about-content .right .text span{
-    color: #ff4e4e;
-    
-}
-.about .about-content .right a{
-    display: inline-block;
-    background: #ff4e4e;
-    color: white;
-    font-size: 15px;
-    padding: 10px 20px;
-    margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid #ff4e4e;
-    transition: all 0.3 ease;
-    
-}
-.about .about-content .right a:hover{
-    color: #ff4e4e;
-    background: none;
-}
 
 .about .personal-info{
   flex: 0 0 60%;
   max-width: 60%;
   /* background-color: red; */
+  /* margin-bottom: 30px; */
   margin-top: 60px;
 }
 
@@ -496,9 +437,10 @@ h3.hello span{
  .about .skills{
   flex: 0 0 40%;
   max-width: 40%;
-  /* background-color: green; */
+  /* background-color: green;      ----------------------------       */
   margin-top: 60px;
-  /* padding-left: 15px; */
+  margin-bottom: 30px;
+
 }
 .about .skills h3{
   /* color: gray; */
@@ -547,6 +489,131 @@ h3.hello span{
   line-height: 40px;
 }
 
+
+
+  /* resume ********************************************************************** */
+  /* resume ********************************************************************** */
+  /* resume ********************************************************************** */
+  /* resume ********************************************************************** */
+
+
+
+.resume {
+font-family: "poppins", sans-serif;
+height: auto;
+/* display: flex; */
+padding: 50px 0;
+  background-color: #FAF9F6;
+}
+
+.resume .title {
+  position: relative;
+  text-align: center;
+font-family: "Poppins", sans-serif;
+color: black;
+font-size: 40px;
+font-weight: 500;
+margin-top: 40px;
+padding-bottom: 30px;
+font-family: "Ubuntu", sans-serif;
+}
+.resume .title::before {
+  content: attr(data-heading);
+  color: #ff4e4e;
+font-size: 15px;
+  bottom: 0px;
+ display: block;
+}
+
+.resume .title2{
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: black;
+}
+
+.resume .education{
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 30px;
+  /* background-color: #ff4e4e; */
+}
+.resume .experience{
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 30px;
+  /* background-color: rgb(36, 236, 13) */
+}
+.resume .timeline-box{
+  flex: 0 0 100%;
+  max-width: 100%;
+  /* background-color: #f21818; */
+}
+.resume .experience .timeline-box{
+  margin-bottom: 30px;
+}
+.resume .timeline{
+  background-color: white;
+  padding: 30px 15px;
+  border: 2px solid #edece8;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  color: #111;
+}
+.resume .timeline .timeline-item{
+  position: relative;
+  padding-left: 37px;
+  padding-bottom: 50px;
+}
+.resume .timeline .timeline-item:last-child{
+  padding-bottom: 0;
+}
+.resume .timeline .timeline-item::before{
+  content: '';
+  width: 1px;
+  position: absolute;
+  height: 100%;
+  left: 7px;
+  top: 0;
+  background-color: #ff4e4e;
+}
+.resume .timeline .timeline-item .circle-dot{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #ff4e4e;
+}
+.resume .timeline .timeline-date{
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: grey;
+}
+.resume .timeline .timeline-date .fa{
+  margin-right: 5px;
+}
+.resume .timeline .timeline-title{
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.resume .timeline .timeline-text{
+  line-height: 25px;
+  font-size: 14px;
+  text-align: justify;
+  margin-right: 30px;
+  color: grey;
+}
+
+.resume .timeline
+
+
+
+
 /* responsive media querey start */
 
 
@@ -593,7 +660,10 @@ h3.hello span{
   /* large screen ********************************************************************** */
   /* large screen  ********************************************************************** */
   /* large screen  ********************************************************************** */
-
+    /* large screen ********************************************************************** */
+  /* large screen ********************************************************************** */
+  /* large screen  ********************************************************************** */
+  /* large screen  ********************************************************************** */
 
 
 /* @media (max-width: 1400px) {
@@ -615,7 +685,10 @@ h3.hello span{
   /* medium screen ********************************************************************** */
   /* medium screen  ********************************************************************** */
   /* medium screen  ********************************************************************** */
-
+    /* medium screen ********************************************************************** */
+  /* medium screen ********************************************************************** */
+  /* medium screen  ********************************************************************** */
+  /* medium screen  ********************************************************************** */
 
 
 
@@ -786,6 +859,10 @@ h3.hello span{
 
 
 
+/* mobile ********************************************************************** */
+/* mobile ********************************************************************** */
+/* mobile ********************************************************************** */
+/* mobile ********************************************************************** */
 /* mobile ********************************************************************** */
 /* mobile ********************************************************************** */
 /* mobile ********************************************************************** */
@@ -1162,6 +1239,24 @@ h3.hello span{
     font-size: 25px;
     padding-bottom: 20px;
     margin-top: 20px;
+    padding-left: 0;
+  }
+
+  .resume .education{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 30px;
+    /* display: inline-block; */
+  }
+  .resume .experience{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 50px;
+    
+    /* display: inline-block; */
+  }
+  .resume .experience .timeline-box{
+    margin-bottom: 10px;
   }
 }
 
