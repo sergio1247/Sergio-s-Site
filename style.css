@@ -148,7 +148,7 @@ a:link {
 }
 .home .home-content .text3 {
   position: absolute;
-  bottom: 8px;
+  bottom: 2%;
   right: 16px;
   color: rgb(128, 128, 128);
   font-size: 13px;
@@ -253,6 +253,10 @@ a:link {
   -moz-background-clip: text;
   }
 
+
+  /* footer{
+    margin-top: auto;
+} */
 
     /* about ********************************************************************** */
   /* about ********************************************************************** */
@@ -1175,7 +1179,7 @@ font-size: 15px;
     }
     .home .home-content .text3 {
       position: absolute;
-      bottom: 8px;
+      bottom: 2%;
       right: 16px;
       color: gray;
       font-size: 13px;
