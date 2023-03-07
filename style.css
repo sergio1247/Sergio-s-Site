@@ -146,6 +146,13 @@ a:link {
   text-shadow: 2px 7px 5px rgba(12, 12, 12, 0.3),
     0px -4px 10px rgba(255, 255, 255, 0.3);
 }
+.home .home-content .text3 {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: rgb(128, 128, 128);
+  font-size: 13px;
+}
 /* .home .home-content .test{
     font-size: 30px;
     text-align: center;
@@ -536,7 +543,7 @@ font-size: 15px;
   flex: 0 0 50%;
   max-width: 50%;
   margin-top: 30px;
-  /* background-color: #ff4e4e; */
+  /* background-color: white; */
 }
 .resume .experience{
   flex: 0 0 50%;
@@ -553,7 +560,8 @@ font-size: 15px;
   margin-bottom: 30px;
 }
 .resume .timeline{
-  background-color: white;
+  /* background-color: white; */
+  /* background-color: #0a66c2; */
   padding: 30px 15px;
   border: 2px solid #edece8;
   border-radius: 10px;
@@ -609,10 +617,111 @@ font-size: 15px;
   color: grey;
 }
 
-.resume .timeline
+
+  /* projects ********************************************************************** */
+  /* projects ********************************************************************** */
+  /* projects ********************************************************************** */
+  /* projects ********************************************************************** */
+
+
+.projects {
+  font-family: "poppins", sans-serif;
+  height: auto;
+  /* display: flex; */
+  padding: 50px 0;
+    /* background-color: #0f0f2f; */
+    background-color: rgb(70, 70, 70);
+  }
+  
+  .projects .title {
+    position: relative;
+    text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 40px;
+  padding-bottom: 30px;
+  font-family: "Ubuntu", sans-serif;
+  }
+  .projects .title::before {
+    content: attr(data-heading);
+    color: #ff4e4e;
+  font-size: 15px;
+    bottom: 0px;
+   display: block;
+  }
+
+  .projects .work{
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  
+    /* background-color: gold; */
+    /* margin: auto; */
+    flex-wrap: wrap;
+  }
+  .projects .work-item{
+    flex: 0 0 33%;
+    max-width: 33%;
+    /* background-color: red; */
+    padding: 15px 15px;
+    position: relative;
+    width: 100%;
+
+  }
+.projects .work-box{
+  flex: 0 0 100%;
+  max-width: 100%;
+  /* background-color: green; */
+  
+}
+.projects .work-box img{
+  width: 100%;
+  height: 100%;
+}
+.projects .row:last-child{
+  /* background-color: #FAF9F6; */
+  margin-top: -30px;
+}
 
 
 
+
+
+
+  .resume .education{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
+    /* background-color: #ff4e4e; */
+  }
+  .resume .experience{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 30px;
+    /* background-color: rgb(36, 236, 13); */
+  }
+  .resume .timeline-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+    /* background-color: #f21818; */
+  }
+  .resume .experience .timeline-box{
+    margin-bottom: 30px;
+  }
+  .resume .timeline{
+    background-color: white;
+    /* background-color: #0a66c2; */
+    padding: 30px 15px;
+    border: 2px solid #edece8;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    color: #111;
+  }
 
 /* responsive media querey start */
 
@@ -766,6 +875,14 @@ font-size: 15px;
     text-shadow: 2px 7px 5px rgba(12, 12, 12, 0.3),
       0px -4px 10px rgba(255, 255, 255, 0.3);
   }
+  .home .home-content .text3 {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: gray;
+    font-size: 13px;
+}
+
   
   .home .home-content .media ul {
     /* position: relative; */
@@ -822,7 +939,7 @@ font-size: 15px;
     position: relative;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 80px;
     /* left: 48.5%; */
   
     font-size: 40px;
@@ -850,6 +967,45 @@ font-size: 15px;
   .about .about-content .right {
     flex: 100%;
   }
+  
+
+
+
+ 
+  
+  .projects .work{
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   margin-top: 40px;
+    /* background-color: gold; */
+    /* margin: auto; */
+  }
+  .projects .work-item{
+    flex: 0 0 50%;
+    max-width: 50%;
+   
+    /* background-color: red; */
+    padding: 13px 15px;
+    position: relative;
+    /* width: 100%; */
+
+  }
+.projects .work-box{
+  flex: 0 0 100%;
+  max-width: 100%;
+  /* background-color: green; */
+  
+}
+.projects .work-box img{
+  width: 100%;
+  height: 100%;
+}
+.projects .row:last-child{
+  /* background-color: #FAF9F6; */
+  margin-top: -30px;
+}
 }
 
 
@@ -1017,6 +1173,13 @@ font-size: 15px;
       font-size: 40px;
       color: rgb(99, 21, 21);
     }
+    .home .home-content .text3 {
+      position: absolute;
+      bottom: 8px;
+      right: 16px;
+      color: gray;
+      font-size: 13px;
+  }
     .max-width{
     max-width: 1000px;
   }
@@ -1094,8 +1257,8 @@ font-size: 15px;
   color: white;
   font-size: 40px;
   font-weight: 500;
-  margin-top: 30px;
-  padding-bottom: 50px;
+  margin-top: 10px;
+  padding-bottom: 40px;
   /* background-color: #0a66c2; */
   font-family: "Ubuntu", sans-serif;
 }
@@ -1242,10 +1405,13 @@ font-size: 15px;
     padding-left: 0;
   }
 
+ .resume .title{
+  margin-top: 10px;
+ }  
   .resume .education{
     flex: 0 0 100%;
     max-width: 100%;
-    margin-top: 30px;
+    margin-top: 10px;
     /* display: inline-block; */
   }
   .resume .experience{
@@ -1258,6 +1424,36 @@ font-size: 15px;
   .resume .experience .timeline-box{
     margin-bottom: 10px;
   }
+
+  
+
+
+
+
+  .projects .work{
+    display: inline;
+    margin-top: 0px;
+  }
+  
+  .projects .work-item{
+    flex: 0 0 100%;
+    max-width: 100%;
+    /* background-color: red; */
+    padding: 15px 15px;
+    /* position: block; */
+    width: 100%;
+
+  }
+.projects .work-box{
+  flex: 0 0 100%;
+  max-width: 100%;
+  /* background-color: green; */
+  
+}
+.projects .row:last-child{
+  /* background-color: #FAF9F6; */
+  margin-top: 0;
+}
 }
 
 
