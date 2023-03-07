@@ -1252,7 +1252,13 @@ font-size: 15px;
   .container{
     display: inline-block ;
   }
-
+  .home .home-content .text3 {
+    position: absolute;
+    bottom: 2%;
+    right: 16px;
+    color: gray;
+    font-size: 13px;
+}
 
   .about .title {
     position: relative;
