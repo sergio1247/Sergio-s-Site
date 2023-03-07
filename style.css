@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 :root {
     color-scheme: dark;
-    — app-height: 100%;
+    /* — app-height: 100%; */
 }
 
 
@@ -106,7 +106,8 @@ a:link {
   background: url("images/bg3.jpg") no-repeat center;
   background-size: cover;
   height: 100vh;
-  height: var( — app-height);
+  /* min-height: -webkit-fill-available; */
+  /* height: var( — app-height); */
   color: #fff;
   min-height: 500px; /* height of home element box */
   font-family: "Ubuntu", sans-serif;
@@ -1259,12 +1260,12 @@ font-size: 15px;
     background: url("images/bg3.jpg") no-repeat center;
     background-size: cover;
     height: 100vh;
-    height: var( — app-height);
+    min-height: -webkit-fill-available;
     color: #fff;
-    min-height: 500px; /* height of home element box */
+    /* min-height: 500px; height of home element box */
     font-family: "Ubuntu", sans-serif;
   }
-  
+
   .home .home-content .text3 {
     position: absolute;
     bottom: 2%;
