@@ -105,6 +105,7 @@ a:link {
   background: url("images/bg3.jpg") no-repeat center;
   background-size: cover;
   height: 100vh;
+  height: var( — app-height);
   color: #fff;
   min-height: 500px; /* height of home element box */
   font-family: "Ubuntu", sans-serif;
@@ -1252,6 +1253,17 @@ font-size: 15px;
   .container{
     display: inline-block ;
   }
+  .home {
+    display: flex;
+    background: url("images/bg3.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    height: var( — app-height);
+    color: #fff;
+    min-height: 500px; /* height of home element box */
+    font-family: "Ubuntu", sans-serif;
+  }
+  
   .home .home-content .text3 {
     position: absolute;
     bottom: 2%;
