@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY > 20){
@@ -15,9 +16,3 @@ $(document).ready(function(){
     });
 });
 
-const appHeight = () => {
-    const doc = document.documentElement
-    doc.style.setProperty(‘ — app-height’, `${window.innerHeight}px`)
-   }
-   window.addEventListener(‘resize’, appHeight)
-   appHeight()
