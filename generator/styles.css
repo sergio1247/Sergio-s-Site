@@ -78,7 +78,7 @@ h2 {
     margin-right: 100px; */
     margin-top: 100px;
     width: 500px;
-    height: 435px;
+    height: auto;
     text-align: center;
 }
 
@@ -171,10 +171,12 @@ h2 {
 .generate:hover{
     background-color: #e7c862;
 }
+
+
 @media (max-width: 700px) {
     .pw-container {
         
-        width: 80%;
+        width: 85%;
         
     }
 }
