@@ -1453,7 +1453,9 @@ font-size: 15px;
   
 
 
-
+.projects .title{
+  margin-top: 10px;
+}
 
   .projects .work{
     display: inline;
@@ -1472,8 +1474,13 @@ font-size: 15px;
 .projects .work-box{
   flex: 0 0 100%;
   max-width: 100%;
+  height: 100%;
   /* background-color: green; */
   
+}
+.projects .work-box img{
+  width: 100%;
+  height: 100%;
 }
 .projects .row:last-child{
   /* background-color: #FAF9F6; */
