@@ -171,3 +171,10 @@ h2 {
 .generate:hover{
     background-color: #e7c862;
 }
+@media (max-width: 700px) {
+    .pw-container {
+        
+        width: 70%;
+        
+    }
+}
