@@ -11,7 +11,14 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <div class="back-container">
+        <button>
+            <a href="../index.html">
+            <i class="fas fa-chevron-left"></i>  Return
+            </a>
+        </button>
+    </div>
+    <div class="gen-container">
     <div class="pw-container">
         <h2>Password Generator</h2>
         <div class="pw-header">
@@ -32,7 +39,7 @@
         <div class="pw-body">
             <div class="form-control">
                 <label for="len">Password Length</label>
-                <input id="len" value="15" type="number" min="2" max="30" />
+                <input id="len" value="15" type="number" min="2" max="25" />
             </div>
             <div class="form-control">
                 <label for="upper">Contain Uppercase Letters</label>
@@ -54,6 +61,7 @@
                 Generate Password
             </button>
         </div>
+    </div>
     </div>
 </body>
 </html>
