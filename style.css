@@ -682,7 +682,8 @@ font-size: 15px;
 .projects .work-box{
   flex: 0 0 100%;
   max-width: 100%;
-  /* background-color: green; */
+  height: 100%;
+  background-color: green;
   
 }
 .projects .work-box img{
@@ -691,7 +692,7 @@ font-size: 15px;
 }
 .projects .row:last-child{
   /* background-color: #FAF9F6; */
-  margin-top: -30px;
+  /* margin-top: -30px; */
 }
 
 
@@ -1268,10 +1269,10 @@ font-size: 15px;
 
   .home .home-content .text3 {
     position: absolute;
-    bottom: 2%;
-    right: 16px;
+    /* bottom: 2%;
+    right: 16px; */
     color: gray;
-    font-size: 13px;
+    font-size: 0px;
 }
 
   .about .title {
