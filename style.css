@@ -1606,15 +1606,15 @@ font-size: 15px;
 }
 
   .projects .work{
-    display: inline;
+    display: block inline;
     margin-top: 0px;
   }
   
   .projects .work-item{
     flex: 0 0 100%;
     max-width: 100%;
-    /* background-color: red; */
-    margin: 15px 15px;
+    background-color: red;
+    /* margin: 10px 10px; */
     /* position: block; */
     width: 100%;
 
