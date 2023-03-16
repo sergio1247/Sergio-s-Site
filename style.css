@@ -4,8 +4,9 @@
     /* — app-height: 100%; */
 }
 
-
-
+::-webkit-scrollbar{
+  display: none;
+}
 
 
 * {
@@ -88,10 +89,10 @@ html{
   margin-left: 25px; /*  Space between home, about, skills  */
 }
 .navbar .menu li a:hover {
-  color: #ff4e4e;
+  color: #61c937;
 }
 .navbar.sticky .menu li a:hover {
-  color: #ff4e4e;
+  color: #61c937;
 }
 /* home button styling  */
 
@@ -219,22 +220,14 @@ html{
 }
 
 .home .home-content .scrolldown {
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-  /* left: 48.5%; */
-
-  font-size: 40px;
-  
-}
-.home .home-content .scrolldown {
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    /* background-color: #61c937; */
+    /* bottom: -200px; */
+    
     /* left: 48.5%; */
   
     font-size: 40px;
@@ -245,6 +238,7 @@ html{
       /* text-shadow: 3px 3px 5px black; */
       -webkit-background-clip: text;
     -moz-background-clip: text;
+    text-align: center;
     
   }
 .fa:hover {
@@ -298,7 +292,7 @@ section{
 }
 .about .title::before {
     content: attr(data-heading);
-    color: #ff4e4e;
+    color: #61c937;
   font-size: 15px;
     bottom: 0px;
    display: block;
@@ -327,7 +321,7 @@ h3.hello span{
   font-family: 'Clicker Script', cursive;
   font-size: 50px;
   font-weight: 700;
-  color: #ff4e4e;
+  color: #61c937;
   margin-bottom: 20px;
 }
 .about-info p{
@@ -435,18 +429,18 @@ h3.hello span{
  }
  .about .personal-info .buttons a{
   display: inline-block;
-  background: #ff4e4e;
+  background: #61c937;
   color: white;
   font-size: 15px;
   padding: 10px 30px;
   margin-top: 40px;
   border-radius: 6px;
-  border: 2px solid #ff4e4e;
+  border: 2px solid #61c937;
   transition: all 0.3 ease;
   
 }
 .about .personal-info a:hover{
-  color: #ff4e4e;
+  color: #61c937;
   background: none;
 }
 
@@ -494,7 +488,7 @@ h3.hello span{
   top: 0;
   height: 100%;
   border-radius: 4px;
-  background-color: #ff4e4e;
+  background-color: #61c937;
   
 }
 .about .skills .skill-item .skill-percent{
@@ -536,7 +530,7 @@ font-family: "Ubuntu", sans-serif;
 }
 .resume .title::before {
   content: attr(data-heading);
-  color: #ff4e4e;
+  color: #61c937;
 font-size: 15px;
   bottom: 0px;
  display: block;
@@ -594,7 +588,7 @@ font-size: 15px;
   height: 100%;
   left: 7px;
   top: 0;
-  background-color: #ff4e4e;
+  background-color: #61c937;
 }
 .resume .timeline .timeline-item .circle-dot{
   position: absolute;
@@ -603,7 +597,7 @@ font-size: 15px;
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  background-color: #ff4e4e;
+  background-color: #61c937;
 }
 .resume .timeline .timeline-date{
   font-weight: 400;
@@ -656,7 +650,7 @@ font-size: 15px;
   }
   .projects .title::before {
     content: attr(data-heading);
-    color: #ff4e4e;
+    color: #61c937;
   font-size: 15px;
     bottom: 0px;
    display: block;
@@ -707,7 +701,7 @@ font-size: 15px;
     flex: 0 0 50%;
     max-width: 50%;
     margin-top: 30px;
-    /* background-color: #ff4e4e; */
+    /* background-color: #61c937; */
   }
   .resume .experience{
     flex: 0 0 50%;
@@ -763,7 +757,7 @@ font-size: 15px;
     }
     .contact .title::before {
       content: attr(data-heading);
-      color: #ff4e4e;
+      color: #61c937;
     font-size: 15px;
       bottom: 0px;
      display: block;
@@ -796,8 +790,8 @@ font-size: 15px;
       width: 100%;
       /* justify-content: end; */
       justify-content: center;
-      padding-left: 20%;
-      padding-right: 20%;
+      padding-left: 25%;
+      padding-right: 25%;
       
     }
     .contact .contact-card{
@@ -822,12 +816,12 @@ font-size: 15px;
 
     }
     .contact .contact-container .contact-content .contact-button{
-      color: #ff4e4e;
+      color: #61c937;
     
     }
     .contact .contact-container .contact-content .contact-button i{
       font-size: 12px;
-      color: #ff4e4e;
+      color: #61c937;
     }
     #mail{
       font-size: 10px;
@@ -1433,7 +1427,7 @@ font-size: 15px;
     font-family: 'Clicker Script', cursive;
     font-size: 50px;
     font-weight: 700;
-    color: #ff4e4e;
+    color: #61c937;
     margin-bottom: 20px;
   }
 
@@ -1508,18 +1502,18 @@ font-size: 15px;
    }
    .about .personal-info .buttons a{
     display: inline-block;
-    background: #ff4e4e;
+    background: #61c937;
     color: white;
     font-size: 15px;
     padding: 10px 30px;
     margin-top: 30px;
     border-radius: 6px;
-    border: 2px solid #ff4e4e;
+    border: 2px solid #61c937;
     transition: all 0.3 ease;
     
   }
   .about .personal-info a:hover{
-    color: #ff4e4e;
+    color: #61c937;
     background: none;
   }
 
