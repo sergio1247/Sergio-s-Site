@@ -707,7 +707,6 @@ font-size: 15px;
   left: 0;
   right: 0;
   background: rgba(13, 13, 13, 0.9);
-  
   overflow: hidden;
   width: 100%;
   height:0;
@@ -718,6 +717,7 @@ font-size: 15px;
   bottom: 0;
   height: 100%;
 }
+
 
 .overlay-title {
   color: white;
@@ -741,7 +741,7 @@ font-size: 15px;
 .overlay-button{
   color: #61c937;
   padding-left: 15px;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 30px;
 }
 .overlay-button a:hover {
