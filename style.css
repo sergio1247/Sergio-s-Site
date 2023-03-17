@@ -1741,7 +1741,8 @@ font-size: 15px;
 
 @media (max-width: 550px) {
   .home .home-content .text1{
-    font-size: 60px;
+    font-size: 90px;
+    font-weight: 400;
   }
   .overlay-title{
     font-size: 16px;
