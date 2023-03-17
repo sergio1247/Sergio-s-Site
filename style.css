@@ -1013,39 +1013,7 @@ font-size: 15px;
 
 
 
-  .home .home-content .text1 {
-    text-align: center;
-  
-    background-color: white;
-    background-image: linear-gradient(
-      to top,
-      rgb(229, 224, 224) 0%,
-      rgb(236, 228, 228) 100%
-    );
-    text-shadow: 2px 7px 5px;
-    font-size: 4000px;
-    /* font-weight: 600; */
-    /* -webkit-text-stroke-width: 1px; */
-    -webkit-text-stroke-color: black;
-    background-size: 500%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    color: transparent;
-  }
-  .home .home-content .text2 {
-    font-size: 20px;
-    text-align: center;
-    margin-top: -50px;
-    text-shadow: 2px 7px 5px rgba(12, 12, 12, 0.3),
-      0px -4px 10px rgba(255, 255, 255, 0.3);
-  }
-  .home .home-content .text3 {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    color: gray;
-    font-size: 13px;
-}
+
 
   
   .home .home-content .media ul {
@@ -1751,9 +1719,10 @@ font-size: 15px;
   .home .home-content .text1{
     font-size: 90px;
     line-height: 90%;
-    font-weight: 400;
+    font-weight: 600;
   }
   .home .home-content .text2{
+    margin-top: 5px;
     font-size: 14px;
   }
   .overlay-title{
