@@ -1718,54 +1718,20 @@ font-size: 15px;
   font-size: 15px;
 }
 
+
+
+
+
+@media (max-width: 550px) {
+
+  .overlay-title{
+    font-size: 16px;
+  }
+  .overlay-text{
+    font-size: 12px;
+  }
+
 }
 
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media (max-width: 991px) {
-  .max-width {
-    padding: 0 50px;
-  }
-  .navbar .menu {
-    position: fixed;
-    height: 100vh;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background: #111;
-  }
-  .navbar .menu li {
-    display: inline-block;
-  }
-
-  .home {
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-position: center, center;
-  }
-} */
+}
