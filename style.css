@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Clicker+Script&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 :root {
     color-scheme: dark;
     /* — app-height: 100%; */
@@ -141,7 +141,7 @@ html{
 .home .home-content .text1 {
   text-align: center;
   
-
+  font-family: "Allura";
   background-color: white;
   background-image: linear-gradient(
     to top,
@@ -149,7 +149,7 @@ html{
     rgb(236, 228, 228) 100%
   );
   text-shadow: 2px 7px 5px;
-  font-size: 100px;
+  font-size: 120px;
   font-weight: 500;
   /* -webkit-text-stroke-width: 1px; */
   -webkit-text-stroke-color: black;
@@ -161,7 +161,8 @@ html{
 .home .home-content .text2 {
   font-size: 20px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: -15px;
+  margin-bottom: 20px;
   text-shadow: 2px 7px 5px rgba(12, 12, 12, 0.3),
     0px -4px 10px rgba(255, 255, 255, 0.3);
 }
@@ -205,12 +206,13 @@ html{
   /* color: black; */
 }
 .home .home-content .media ul li a {
+
   position: relative;
   display: block;
   height: 30px;
   width: 30px;
   border-radius: 30%;
-  background-color: rgb(49, 57, 47);
+  background-color: #111111;
   text-align: center;
   transition: 0.3s;
   box-shadow: 3px 3px 5px white;
@@ -332,7 +334,7 @@ h3.hello{
   /* margin-left: 60px; */
 }
 h3.hello span{
-  font-family: 'Clicker Script', cursive;
+  font-family: 'Allura', cursive;
   font-size: 50px;
   font-weight: 700;
   color:#f99954;
@@ -1255,7 +1257,7 @@ font-size: 15px;
         rgb(236, 228, 228) 100%
       );
       text-shadow: 2px 7px 5px;
-      font-size: 60px;
+      font-size: 80px;
       font-weight: 600;
       /* -webkit-text-stroke-width: 1px; */
       -webkit-text-stroke-color: black;
@@ -1265,9 +1267,9 @@ font-size: 15px;
       color: transparent;
     }
     .home .home-content .text2 {
-      font-size: 20px;
+      font-size: 17px;
       text-align: center;
-      margin-top: 10px;
+      margin-top: 0px;
       text-shadow: 2px 7px 5px rgba(12, 12, 12, 0.3),
         0px -4px 10px rgba(255, 255, 255, 0.3);
     }
@@ -1519,7 +1521,7 @@ font-size: 15px;
     /* margin-left: 60px; */
   }
   h3.hello span{
-    font-family: 'Clicker Script', cursive;
+    font-family: "Allura", sans-serif;
     font-size: 50px;
     font-weight: 700;
     color: #f99954;
@@ -1738,7 +1740,9 @@ font-size: 15px;
 
 
 @media (max-width: 550px) {
-
+  .home .home-content .text1{
+    font-size: 60px;
+  }
   .overlay-title{
     font-size: 16px;
   }
