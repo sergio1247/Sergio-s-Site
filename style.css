@@ -56,10 +56,10 @@ html{
 }
 
 .project-width {
-  max-width: 1800px;
+  max-width: 1400px;
   padding: 0 80px; /* indents Portfolio */
   margin: auto;
-  /* background-color: #f21818; */
+  background-color: #f21818;
 }
 
 /* navbar styling */
@@ -733,7 +733,7 @@ font-size: 15px;
 }
 .overlay-text{
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
@@ -1158,7 +1158,7 @@ font-size: 15px;
   font-size: 15px;
 }
 .overlay-text{
-  font-size: 12px;
+  font-size: 5px;
 }
 }
 
@@ -1386,6 +1386,38 @@ font-size: 15px;
     /* background-color: green; */
     margin-top: 60px;
     /* padding-left: 15px; */
+  }
+  .projects .work{
+    display: block inline;
+    /* margin-top: 0px; */
+  }
+  
+  .projects .work-item{
+    flex: 0 0 45%;
+    max-width: 100%;
+    /* background-color: red; */
+    /* margin: 10px 10px; */
+    /* position: block; */
+    width: 100%;
+
+  }
+.projects .work-box{
+  flex: 0 0 100%;
+  max-width: 100%;
+  height: 100%;
+  /* background-color: green; */
+  
+}
+.projects .work-box img{
+  width: 100%;
+  height: 100%;
+}
+
+  .overlay-title{
+    font-size: 20px;
+  }
+  .overlay-text{
+    font-size: 15px;
   }
   }
 
@@ -1617,7 +1649,7 @@ font-size: 15px;
   .projects .work-item{
     flex: 0 0 100%;
     max-width: 100%;
-    background-color: red;
+    /* background-color: red; */
     /* margin: 10px 10px; */
     /* position: block; */
     width: 100%;
