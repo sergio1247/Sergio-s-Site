@@ -1597,8 +1597,8 @@ font-size: 15px;
    }
    .about .personal-info .buttons a{
     display: inline-block;
-    background: #f99954;
-    color: white;
+    background: none;
+    color: #f99954;
     font-size: 15px;
     padding: 10px 30px;
     margin-top: 30px;
@@ -1608,7 +1608,8 @@ font-size: 15px;
     
   }
   .about .personal-info a:hover{
-    color: #f99954;
+    color: white;
+    border-color: white;
     background: none;
   }
 
