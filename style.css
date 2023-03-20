@@ -141,7 +141,7 @@ html{
 .home .home-content .text1 {
   text-align: center;
   
-  font-family: "Allura";
+
   background-color: white;
   background-image: linear-gradient(
     to top,
@@ -149,7 +149,7 @@ html{
     rgb(236, 228, 228) 100%
   );
   text-shadow: 2px 7px 5px;
-  font-size: 120px;
+  font-size: 100px;
   font-weight: 500;
   /* -webkit-text-stroke-width: 1px; */
   -webkit-text-stroke-color: black;
@@ -161,8 +161,7 @@ html{
 .home .home-content .text2 {
   font-size: 20px;
   text-align: center;
-  margin-top: -15px;
-  margin-bottom: 20px;
+  margin-top: 10px;
   text-shadow: 2px 7px 5px rgba(12, 12, 12, 0.3),
     0px -4px 10px rgba(255, 255, 255, 0.3);
 }
@@ -206,7 +205,6 @@ html{
   /* color: black; */
 }
 .home .home-content .media ul li a {
-
   position: relative;
   display: block;
   height: 30px;
@@ -1013,7 +1011,39 @@ font-size: 15px;
 
 
 
-
+  .home .home-content .text1 {
+    text-align: center;
+  
+    background-color: white;
+    background-image: linear-gradient(
+      to top,
+      rgb(229, 224, 224) 0%,
+      rgb(236, 228, 228) 100%
+    );
+    text-shadow: 2px 7px 5px;
+    font-size: 60px;
+    font-weight: 600;
+    /* -webkit-text-stroke-width: 1px; */
+    -webkit-text-stroke-color: black;
+    background-size: 500%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+  }
+  .home .home-content .text2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 2px 7px 5px rgba(12, 12, 12, 0.3),
+      0px -4px 10px rgba(255, 255, 255, 0.3);
+  }
+  .home .home-content .text3 {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: gray;
+    font-size: 13px;
+}
 
   
   .home .home-content .media ul {
@@ -1045,7 +1075,7 @@ font-size: 15px;
     height: 30px;
     width: 30px;
     border-radius: 30%;
-    background-color: #111111;
+    background-color: rgb(49, 57, 47);
     text-align: center;
     transition: 0.3s;
     box-shadow: 3px 3px 5px white;
@@ -1074,7 +1104,7 @@ font-size: 15px;
     margin-top: 80px;
     /* left: 48.5%; */
   
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(99, 21, 21);
   }
   .max-width{
@@ -1225,8 +1255,8 @@ font-size: 15px;
         rgb(236, 228, 228) 100%
       );
       text-shadow: 2px 7px 5px;
-      font-size: 100px;
-      /* font-weight: 600; */
+      font-size: 60px;
+      font-weight: 600;
       /* -webkit-text-stroke-width: 1px; */
       -webkit-text-stroke-color: black;
       background-size: 500%;
@@ -1235,9 +1265,9 @@ font-size: 15px;
       color: transparent;
     }
     .home .home-content .text2 {
-      font-size: 17px;
+      font-size: 20px;
       text-align: center;
-      margin-top: -10px;
+      margin-top: 10px;
       text-shadow: 2px 7px 5px rgba(12, 12, 12, 0.3),
         0px -4px 10px rgba(255, 255, 255, 0.3);
     }
@@ -1434,15 +1464,7 @@ font-size: 15px;
     /* min-height: 500px; height of home element box */
     font-family: "Ubuntu", sans-serif;
   }
-  .home .home-content .text1{
-    font-size: 90px;
-    /* line-height: 100%; */
-    font-weight: 400;
-  }
-  .home .home-content .text2{
-    font-size: 14px;
-    margin-top: -10px;
-  }
+
   .home .home-content .text3 {
     position: absolute;
     /* bottom: 2%;
@@ -1716,15 +1738,7 @@ font-size: 15px;
 
 
 @media (max-width: 550px) {
-  .home .home-content .text1{
-    font-size: 85px;
-    line-height: 80px;
-    font-weight: 500;
-  }
-  .home .home-content .text2{
-    margin-top: 5px;
-    font-size: 14px;
-  }
+
   .overlay-title{
     font-size: 16px;
   }
